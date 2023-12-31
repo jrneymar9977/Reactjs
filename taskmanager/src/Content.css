@@ -1,0 +1,56 @@
+/* content.css */
+
+
+
+  .taskcontent-ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.taskcontent{
+  margin-right: 60px;
+  padding: 10px;
+  border: 2px solid #5e5c5c;
+  background-color: rgb(70, 200, 236);
+  border-radius: 10px;
+  min-width: 200px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+  
+  .select {
+    height: 40px;
+    border-radius: 20px;
+    width: 150px;
+  }
+  
+  .textar {
+    margin-top: 5px;
+    width: 350px;
+    height: 150px;
+  }
+  
+  .btn {
+    margin-top: 2px;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none; 
+    background-color: rgb(255, 255, 255);
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  p{
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-weight: 600;
+  }
+  

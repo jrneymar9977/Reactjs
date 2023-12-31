@@ -1,0 +1,63 @@
+/* add content.css */
+
+.add-task-popup {
+  position: fixed;
+  left: 50%;
+  top: 8%;
+  /* transform: translate(-50%, -50%); */
+  background-color:  rgb(70, 200, 236);
+  backdrop-filter: blur(8px);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.1)
+  /* z-index: 1000; */
+  
+}
+
+.add-task-popup.active {
+  display: flex;
+}
+  
+  /* Ensure each task item is properly separated */
+  .taskcontent ul {
+    margin: 0; /* Reset default margin for <ul> */
+    padding: 0; /* Reset default padding for <ul> */
+  }
+  
+  .taskcontent li {
+    margin-bottom: 10px; /* Add margin between task items */
+    padding: 10px; /* Add padding inside each task item for better separation */
+  }
+  
+  .container {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  
+  .select {
+    height: 40px;
+    border-radius: 20px;
+    width: 150px;
+  }
+  
+  .textar {
+    margin-top: 5px;
+    width: 350px;
+    height: 150px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  
